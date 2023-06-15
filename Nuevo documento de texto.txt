@@ -1,0 +1,18 @@
+<DOCTYPE!>
+
+<html>
+
+<head>
+
+     	<title>ANIME</title> 
+
+</head>
+
+<body bgcolor="LemonChiffon">
+
+
+<font color="Orchid"><center><h1>NOVELA LIGERA/LIGHT NOVEL</h1></center></font>
+
+
+<font color="black"><h2><p align "justify"></h2>
+

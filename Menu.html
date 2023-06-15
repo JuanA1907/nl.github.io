@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MENU</title>
+<style>
+    .menuprincipal {
+        background-color: yellow;
+        color: black;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        margin-top: 10px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+        .menuprincipal:hover {
+            background-color: yellow;
+            padding: 10px;
+            margin-top: 10px;
+            
+        }
+    .desplegable {
+        position: relative;
+        display: table;
+        
+    }
+    .desplegable-hijo {
+        display: none;
+        background-color: red;
+        min-width: 100px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 12px;
+    }
+        .desplegable-hijo:hover {
+            background-color: red;
+            border-radius: 12px;
+            
+        }
+        .desplegable-hijo a {
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+            box-shadow: inset;
+        }
+    .desplegable:hover .desplegable-hijo {
+        display: block;
+    }
+</style>
+<style>
+    a:link{
+        color: black;
+        box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    }
+    a:hover{
+        color: white;
+        background-image: url(prueba4.gif);
+        background-size: cover;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+    }
+    </style>
+
+ </head > <body bgcolor="#DEDEDE">
+    <center>
+        <div class="desplegable">
+            <button class="menuprincipal">MENÚ PRINCIPAL</button>
+            <div class="desplegable-hijo">
+                <a href="MANGA PAGINA COMPLETA.html" target="derecho">MANGA</a>
+                <a href=" ANIME PAGINA COMPLETA.html" target="derecho">ANIME</a>
+                <a href=" LIGHT NOVEL.html" target="derecho">NOVELA LIGERA</a>
+                <a href="Sosei no Onmyoji Página Con Todos los  Contenidos.html" target="derecho" >Sosei no Onmyoji</a>
+                <a href="DANMACHI PÁGINA CON TODOS LOS CONTENIDOS.html" target="derecho">DANMACHI</a>
+            </div>
+        </div>
+    </center>
+</body> </html >
